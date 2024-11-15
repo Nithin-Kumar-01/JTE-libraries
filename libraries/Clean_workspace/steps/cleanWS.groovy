@@ -1,10 +1,3 @@
-void call(){
-    stage("Clean: workspace"){
-        steps {
-                script {
-                    
+void call(){                   
                     cleanWs()
-                }
-            }
-    }
 }
