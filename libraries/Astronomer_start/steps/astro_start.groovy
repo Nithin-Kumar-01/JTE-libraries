@@ -1,5 +1,8 @@
 void call(){
-    stage("Astronomer: Start"){
+    node
+    {
+            stage("Astronomer: Start"){
         sh ' astro dev start'
+            }
     }
 }
