@@ -6,7 +6,6 @@ void call(){
                 cd dbt-airflow-poc
                 pwd
                  ls
-                 cd dbt-airflow-poc
                  astro dev start
                  '''
             }
